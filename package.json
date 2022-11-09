@@ -9,10 +9,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@eva-design/eva": "^2.1.1",
+    "@ui-kitten/components": "^5.1.2",
     "expo": "~46.0.16",
     "expo-status-bar": "~1.4.0",
+    "g": "^2.0.1",
+    "native-base": "^3.4.21",
+    "npm": "^6.14.12",
     "react": "18.0.0",
-    "react-native": "0.69.6"
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-svg": "^13.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

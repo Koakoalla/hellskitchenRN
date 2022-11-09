@@ -4,11 +4,12 @@ import React from 'react'
 
 //Screens
 import ProductContainer from './Screens/Products/ProductContainer'
-
+import Header from './Shared/Header'
 
 export default function App() {
   return (
     <View style={styles.container}>
+    <Header/>
       
       <ProductContainer/>
     </View>
@@ -18,9 +19,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    Color: '#32a852',
-
-    backgroundColor: '#32a852',
     alignItems: 'center',
     justifyContent: 'center',
   },
